@@ -95,42 +95,6 @@ Citizens submit reports and follow their progress. Administrators verify, assign
 | ⚡ **Electricity Problem Reporting** | Report outages, low voltage, damaged poles and exposed wires; map view; duplicate-report control; status flow Submitted → Under Review → Acknowledged → In Progress → Resolved | None in MVP |
 | 🗑️ **Garbage Collection** | Report garbage and request collection by waste category; map view; admin assigns collection teams; status flow Submitted → Approved → Assigned → Collection in Progress → Completed; basic statistics | None in MVP |
 
-<details>
-<summary><b>🔐 Common features</b></summary>
-
-<br>
-
-- Registration and login with JWT and bcrypt-hashed passwords
-- Role-based access control: Citizen, Administrator, optional Collection Staff
-- User profiles and tracking of a citizen's own reports
-- Image upload validation, search, filtering and pagination
-- English and Bangla support where practical
-
-</details>
-
-<details>
-<summary><b>📊 Admin dashboard</b></summary>
-
-<br>
-
-- Totals for users and each report type
-- Pending and resolved counts
-- Recent submissions and basic charts
-- Management of users and news articles
-
-</details>
-
-<details>
-<summary><b>⚠️ Honest limits</b></summary>
-
-<br>
-
-- The system does **not** detect power outages automatically.
-- The system does **not** collect garbage; it records and tracks requests for the responsible teams.
-- An incident is **never** marked verified based on an NLP result alone.
-- Old news is **not** shown as a current condition.
-
-</details>
 
 ---
 
