@@ -125,6 +125,21 @@ cse4104-7b-t07-AI-Powered-City-Welfare-System/
 
 ---
 
+## 🗓️ Roadmap
+
+| Weeks | Milestone | Status |
+| :-: | :-- | :-: |
+| 1-2 | Proposal, SRS, architecture, ER diagram, wireframes, GitHub setup | 🟡 In progress |
+| 3-4 | Project setup, database, authentication, basic dashboard | ⚪ Planned |
+| 5-6 | Waterlogging, lost and found, electricity and garbage modules | ⚪ Planned |
+| 7-8 | News dataset, NLP model, NLP API and integration | ⚪ Planned |
+| 9-10 | Map integration and location filtering | ⚪ Planned |
+| 11-12 | Admin dashboard, verification, cross-module integration | ⚪ Planned |
+| 13 | Testing, security checks, bug fixing | ⚪ Planned |
+| 14 | Deployment, documentation, final presentation | ⚪ Planned |
+
+---
+
 
 ## 🚀 Getting Started
 
