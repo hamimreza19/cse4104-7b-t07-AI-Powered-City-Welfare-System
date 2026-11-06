@@ -110,20 +110,6 @@ Citizens submit reports and follow their progress. Administrators verify, assign
 | 🚀 **Deployment** | Vercel, Render or Railway, Supabase | Hosting for frontend, backend, NLP service and database |
 | 🧰 **Tools** | Git, GitHub, Postman, Figma, VS Code | Version control, API testing, UI design |
 
-### 🧩 System Architecture
-
-```mermaid
-flowchart LR
-    U[👤 Citizen / Admin] --> F[⚛️ React Frontend]
-    F -->|REST API| B[🟢 Node.js + Express]
-    B --> D[(🐘 PostgreSQL + PostGIS)]
-    B -->|news text| N[🐍 FastAPI NLP Service]
-    N -->|category, locations| B
-    F --> M[🗺️ Leaflet + OpenStreetMap]
-```
-
----
-
 ## 🗂️ Repository Structure
 
 ```text
@@ -139,20 +125,6 @@ cse4104-7b-t07-AI-Powered-City-Welfare-System/
 
 ---
 
-## 🗓️ Roadmap
-
-| Weeks | Milestone | Status |
-| :-: | :-- | :-: |
-| 1-2 | Proposal, SRS, architecture, ER diagram, wireframes, GitHub setup | 🟡 In progress |
-| 3-4 | Project setup, database, authentication, basic dashboard | ⚪ Planned |
-| 5-6 | Waterlogging, lost and found, electricity and garbage modules | ⚪ Planned |
-| 7-8 | News dataset, NLP model, NLP API and integration | ⚪ Planned |
-| 9-10 | Map integration and location filtering | ⚪ Planned |
-| 11-12 | Admin dashboard, verification, cross-module integration | ⚪ Planned |
-| 13 | Testing, security checks, bug fixing | ⚪ Planned |
-| 14 | Deployment, documentation, final presentation | ⚪ Planned |
-
----
 
 ## 🚀 Getting Started
 
