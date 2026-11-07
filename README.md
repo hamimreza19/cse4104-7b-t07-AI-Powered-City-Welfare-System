@@ -85,17 +85,32 @@ Citizens submit reports and follow their progress. Administrators verify, assign
 </div>
 
 ---
+## Proposed Features
 
-## ✨ Proposed Features
+### 1. Waterlogging Information & Monitoring
+- Collects updates from permitted sources (e.g. RSS feeds) and accepts citizen reports with location, time and photos
+- NLP classifies content and extracts Khulna location names in English and Bangla
+- Incidents shown on a map with area filtering, labelled **verified**, **unverified** or **pending**
+- Uncertain locations are marked uncertain, never guessed
 
-| Module | Key features | Role of AI |
-| :-- | :-- | :-- |
-| 🌧️ **Waterlogging Information** | Collect news from permitted RSS feeds; community reports with location, photo and severity; interactive map with verified and unverified markers; admin approve, reject or resolve | NLP classifies news (Waterlogging, Flood, Heavy Rainfall, Road Problem, Irrelevant) and extracts Khulna locations |
-| 🎒 **Lost and Found** | Post lost or found items with photo, category, date and location; search and filter; secure claim requests; status Open, Claimed or Returned; no public phone numbers or addresses | Optional text matching of similar listings |
-| ⚡ **Electricity Problem Reporting** | Report outages, low voltage, damaged poles and exposed wires; map view; duplicate-report control; status flow Submitted → Under Review → Acknowledged → In Progress → Resolved | None in MVP |
-| 🗑️ **Garbage Collection** | Report garbage and request collection by waste category; map view; admin assigns collection teams; status flow Submitted → Approved → Assigned → Collection in Progress → Completed; basic statistics | None in MVP |
+### 2. Smart Lost & Found
+- Post lost or found items with photo, category, description, date and location
+- Search and filter by category, date and location
+- AI suggests possible matches using image and text comparison
+- Controlled claim-request process; phone numbers and addresses are never shown publicly
 
----
+### 3. Electricity Outage Scheduling
+- Area-wise planned outage notices with date, start time, duration, reason and source
+- Administrators create, edit or cancel notices from the electricity authority's announcements
+- Search by area and date; email and in-app alerts for subscribed areas
+- Official schedules are kept separate from unconfirmed citizen observations
+- AI extracts notice details and finds recurring patterns, but never creates a schedule
+
+### 4. City Problem Reporting & Monitoring
+- Report garbage, potholes, damaged roads, broken streetlights and drainage faults with photo, description and map location
+- Gemini AI suggests category, summary and severity, and flags possible duplicates
+- Moderators review and forward reports to the City Corporation
+- Status flow: `Submitted → Under Review → Forwarded to Authority → In Progress → Resolved`
 
 ## 🛠️ Technology Stack
 
