@@ -127,8 +127,19 @@ Citizens submit reports and follow their progress. Administrators verify, assign
 
 ```text
 cse4104-7b-t07-AI-Powered-City-Welfare-System/
-├── frontend/          # React application
-├── backend/           # Node.js and Express REST API
-├── nlp-service/       # Python FastAPI NLP service
-├── documentation/     # Proposal, SRS, diagrams, reports
+├── .github/
+│   └── workflows/          # CI/CD pipelines (GitHub Actions)
+├── frontend/               # Managed primarily on 'frontend' branch
+│   ├── src/
+│   └── package.json
+├── backend/                # Managed primarily on 'backend' branch
+│   ├── src/
+│   └── package.json
+├── database/               # Managed primarily on 'database' branch
+│   ├── migrations/
+│   └── seeds/
+├── ai/                     # Managed primarily on 'ai' branch
+│   ├── models/
+│   └── scripts/
 └── README.md
+
