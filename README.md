@@ -68,7 +68,7 @@ Citizens submit reports and follow their progress. Administrators verify, assign
 
 <div align="center">
 
-### 🏷️ Team: `CSE4104-7B-T07` &nbsp;|&nbsp; 👑 Leader: Alex Alin Gomes
+### 🏷️ Team: `CSE4104-7B-T07` &nbsp;|&nbsp; 👑 Team Leader: Alex Alin Gomes
 #### 📚 Course: CSE 4104: Software Development III
 
 | # | Member | Student ID | Section | Role |
