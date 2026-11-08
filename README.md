@@ -123,7 +123,7 @@ Citizens submit reports and follow their progress. Administrators verify, assign
 
 ---
 
-## 🗂️ Repository Structure
+## 🗂️ Initial Repository Structure
 
 ```text
 cse4104-7b-t07-AI-Powered-City-Welfare-System/
