@@ -68,21 +68,18 @@ Citizens submit reports and follow their progress. Administrators verify, assign
 
 <div align="center">
 
-| Field | Details |
-| :-- | :-- |
-| **Team Name** | `CSE4104-7B-T07` |
-| **Section** | 7B |
-| **Course** | CSE 4104: Software Development III |
-| **Team Leader** | Alex Alin Gomes |
+### 🏷️ Team: `CSE4104-7B-T07` &nbsp;|&nbsp; 👑 Leader: Alex Alin Gomes
+#### 📚 Course: CSE 4104: Software Development III
 
-| # | Member | Student ID | Role |
-| :-: | :-- | :-: | :-: |
-| 1 | Sabbir Hossain | `11230321293` | Member |
-| 2 | Ahte Shamul Hoque Nadim Biswas | `11230321297` | Member |
-| 3 | Alex Alin Gomes | `11230321307` | 👑 Team Leader |
-| 4 | Md Hamim Reza | `11230321311` | Member |
+| # | Member | Student ID | Section | Role |
+| :-: | :-- | :-: | :-: | :-: |
+| 1 | Sabbir Hossain | `11230321293` | 7B | Member |
+| 2 | Ahte Shamul Hoque Nadim Biswas | `11230321297` | 7B | Member |
+| 3 | Alex Alin Gomes | `11230321307` | 7B | 👑 Team Leader |
+| 4 | Md Hamim Reza | `11230321311` | 7B | Member |
 
 </div>
+
 
 ---
 ## Proposed Features
