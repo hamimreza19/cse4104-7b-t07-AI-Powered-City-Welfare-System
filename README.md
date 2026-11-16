@@ -128,7 +128,7 @@ Citizens submit reports and follow their progress. Administrators verify, assign
 ```text
 cse4104-7b-t07-AI-Powered-City-Welfare-System/
 ├── .github/
-│   └── workflows/          # CI/CD pipelines (GitHub Actions)
+│   └── Development/          # CI/CD pipelines (GitHub Actions)
 ├── frontend/               # Managed primarily on 'frontend' branch
 │   ├── src/
 │   └── package.json
