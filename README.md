@@ -47,7 +47,7 @@ The **AI-Powered City Welfare System** brings four civic needs into one platform
 | 🌧️ | **Waterlogging** | Classified local news and citizen reports on an interactive map |
 | 🎒 | **Lost and Found** | Searchable listings with secure claim requests |
 | ⚡ | **Electricity problems** | Reports with location, photo and status tracking |
-| 🗑️ | **Garbage collection** | Collection requests assigned to teams and tracked to completion |
+| 🗑️ | **City Problem** | Residents complain informally about garbage, damaged roads, broken streetlights and drainage problems. |
 
 Citizens submit reports and follow their progress. Administrators verify, assign and resolve them from a dashboard. An NLP service reads local English and Bangla news, classifies waterlogging articles and extracts the affected Khulna locations.
 
