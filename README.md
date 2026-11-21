@@ -123,23 +123,39 @@ Citizens submit reports and follow their progress. Administrators verify, assign
 
 ---
 
-## 🗂️ Initial Repository Structure
+## 🗂️ Repository Structure
 
 ```text
 cse4104-7b-t07-AI-Powered-City-Welfare-System/
+│
 ├── .github/
-│   └── Development/          # CI/CD pipelines (GitHub Actions)
-├── frontend/               # Managed primarily on 'frontend' branch
+│   └── workflows/              # GitHub Actions CI/CD workflows
+│
+├── frontend/                   # Managed on 'Frontend' branch
 │   ├── src/
 │   └── package.json
-├── backend/                # Managed primarily on 'backend' branch
+│
+├── backend/                    # Managed on 'Backend' branch
 │   ├── src/
 │   └── package.json
-├── database/               # Managed primarily on 'database' branch
-│   ├── migrations/
-│   └── seeds/
-├── ai/                     # Managed primarily on 'ai' branch
+│
+├── ai/                         # Managed on 'AI' branch
 │   ├── models/
 │   └── scripts/
+│
+├── database/                   # Database-related resources
+│   ├── migrations/
+│   └── seeds/
+│
+├── diagrams/                   # Managed on 'Diagrams' branch
+│   ├── architecture/
+│   ├── uml/
+│   └── workflows/
+│
+├── documentations/             # Managed on 'Documentations' branch
+│   ├── project-proposal/
+│   ├── reports/
+│   └── presentations/
+│
 └── README.md
 
