@@ -128,34 +128,19 @@ Citizens submit reports and follow their progress. Administrators verify, assign
 ```text
 cse4104-7b-t07-AI-Powered-City-Welfare-System/
 │
-├── .github/
-│   └── workflows/              # GitHub Actions CI/CD workflows
+├── main                  # Stable project version
 │
-├── frontend/                   # Managed on 'Frontend' branch
-│   ├── src/
-│   └── package.json
+├── Development           # Integration and testing
 │
-├── backend/                    # Managed on 'Backend' branch
-│   ├── src/
-│   └── package.json
+├── Frontend              # React.js and Tailwind CSS
 │
-├── ai/                         # Managed on 'AI' branch
-│   ├── models/
-│   └── scripts/
+├── Backend               # Node.js and Express.js
 │
-├── database/                   # Database-related resources
-│   ├── migrations/
-│   └── seeds/
+├── AI                    # Python, NLP and AI models
 │
-├── diagrams/                   # Managed on 'Diagrams' branch
-│   ├── architecture/
-│   ├── uml/
-│   └── workflows/
+├── Database              # PostgreSQL and PostGIS
 │
-├── documentations/             # Managed on 'Documentations' branch
-│   ├── project-proposal/
-│   ├── reports/
-│   └── presentations/
+├── Diagrams              # use case, system and ER diagrams
 │
-└── README.md
+└── Documantaions         # Reports and project documents
 
